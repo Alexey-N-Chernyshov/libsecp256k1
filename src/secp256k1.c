@@ -6,6 +6,10 @@
 
 #include "include/secp256k1.h"
 
+#define USE_BASIC_CONFIG 1
+
+#include "basic-config.h"
+
 #include "util.h"
 #include "num_impl.h"
 #include "field_impl.h"
