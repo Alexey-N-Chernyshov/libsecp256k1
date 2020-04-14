@@ -10,7 +10,6 @@ project("libsecp256k1"
     )
 
 include_directories(
-#    SYSTEM
     # project includes
     ${PROJECT_SOURCE_DIR}/include
 )

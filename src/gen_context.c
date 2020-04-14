@@ -6,7 +6,8 @@
 
 #define USE_BASIC_CONFIG 1
 
-#include "secp256k1.h"
+#include "basic-config.h"
+#include "include/secp256k1.h"
 #include "field_impl.h"
 #include "scalar_impl.h"
 #include "group_impl.h"
